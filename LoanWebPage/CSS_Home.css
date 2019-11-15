@@ -1,0 +1,451 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+	background-image: url(image/Home-header-1.jpg);
+	background-size: 100% 100%;
+	width:100%;
+	height: 550px;
+	opacity: 1;
+}
+
+header div {
+	height: 320px;
+	width: 49%;
+	float: left;
+	margin:0.5%;
+}
+
+.hdiv1 {
+	width: 100%;
+	height: 100px;
+}
+
+header div img {
+	max-width: 80%;
+	max-height: 100px;
+}
+
+header div p {
+	font-size: 35px;
+	color: darkblue;
+	font-family: Tw Cen MT;
+	margin-top: -1px;
+	text-align: right;
+}
+
+
+nav {
+	background-color:#66ff66;
+	width:100%;
+	height: 75px;	
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-family: Tw Cen MT;
+	font-size: 30px;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 20px;
+}
+
+nav li a:hover {
+	background-color: #00cc00;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.open-button {
+	background-color:red;
+ 	color: white;
+  	padding: 16px 20px;
+  	border: none;
+  	cursor: pointer;
+  	opacity: 0.8;
+  	position: fixed;
+  	bottom: 90px;
+  	right:8px;
+  	width:200px;
+  	font-size: 30px;
+  	font-family: Tw Cen MT;
+  	border-radius: 10px;
+}
+
+.form-popup {
+  	display: none;
+  	position: fixed;
+  	right: 8px;
+  	border: 3px solid #f1f1f1;
+  	bottom: 90px;
+}
+
+form h1 {
+	font-size: 45px;
+}
+
+form label {
+	font-size: 25px;
+}
+
+.form-container {
+	max-width: 350px;
+ 	padding: 10px;
+ 	height: 470px;
+ 	right: 8px;
+  	background-color: white;
+  	
+}
+
+.form-container input[type=text], .form-container input[type=password] {
+  	width: 90%;
+  	padding: 15px;
+  	margin-top: 5px;
+  	margin-bottom: 22px;
+  	border: none;
+  	background: #f1f1f1;
+  	font-size: 18px;
+}
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  	outline: none;
+}
+
+.form-container .btn {
+  	background-color:green;
+  	color: white;
+  	padding: 16px 20px;
+  	border: none;
+  	cursor: pointer;
+  	width: 100%;
+  	margin-bottom:15px;
+  	margin-top: 10px;
+  	opacity: 0.8;
+  	font-size: 25px;
+  	font-family: Tw Cen MT;
+}
+
+.form-container .cancel {
+  	background-color:red;
+  	color: white;
+  	padding: 16px 20px;
+  	border: none;
+  	cursor: pointer;
+  	width: 100%;
+  	margin-bottom:25px;
+  	opacity: 0.8;
+  	font-size: 25px;
+  	font-family: Tw Cen MT;
+}
+
+.form-container .cancel:hover, .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+h1 {
+	font-family: Tw Cen MT;
+}
+
+label {
+	font-family: Tw Cen MT;
+}
+
+@media screen and (max-width:1300px) {
+
+
+	li {
+		width: 100%;
+	}
+
+	nav {
+		height: 372px;
+	}
+
+
+	.form-popup {
+  		margin-top: -375px;
+	}
+
+	.dropdown {
+		width: 90%;
+		text-align: left;
+		height: 225px;
+		
+	}
+
+	
+	section div img {
+		height: 225px;
+		float: left;
+	}
+	
+	.dropdown-content {
+		float: left;
+		max-width: 65%;
+		max-height: 510px;
+		left: 255px;
+	}
+	
+	section {
+		width: 30%;
+		float: left;
+		max-height: 0px;
+	}
+
+	aside {
+		max-width: 75%;
+		float: left;
+		min-height: 970px;
+		margin-left: 280px;
+	}
+
+	aside aside {
+		background-image: url(image/Money.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		min-height: 960px;
+		min-width: 97%;
+		margin-top: -200px;
+	}
+
+	aside article {
+		display: none;
+	}
+
+	.ad_div  {
+		min-height: 465px;
+		margin: 1%;
+		float: left;
+	}
+
+	.ad_img {
+		min-width: 450px;
+		min-height: 300px;
+	}
+
+	.ad {
+		min-width: 90%;
+		min-height: 200px;
+		font-size: 5vw;
+	}
+
+	header {
+		background-image: url(image/Home-header-1.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		width:100%;
+		height: 350px;
+	}
+
+}
+
+@media screen and (max-width:850px) {
+	header div p {
+	font-size: 25px;
+	}
+	
+	header div img {
+	max-width: 100%;
+	max-height: 100px;
+	}
+}
+
+main {
+	width:100%;
+	height: 1000px;
+}
+
+section {
+	width:100%;
+	height: 330px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+section div {
+	width: 23%;
+	height:	300px;
+	margin:	1%;
+	float: left;	
+	text-align: center;
+}
+
+section div img {
+	max-width: 100%;
+	max-height: 300px;
+	border-radius: 250px;
+
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	width: 100%;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,1,0.7);
+	margin-left: 1px;
+	font-family: Tw Cen MT;
+	text-align: justify;
+	padding-left: 15px;
+	height: 530px;
+	font-size: 15px;
+	border-radius: 20px;
+}
+
+.dropdown-content p {
+	font-size: 20px;
+	padding-left: 15px;
+	margin-top: -10px;
+	padding-right: 15px;
+}
+
+.dropdown-content ul {
+	font-size: 18px;
+	padding-right: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+aside {
+	width:100%;
+	height: 680px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+
+aside aside {
+	width: 59%;
+	border-radius: 10px;
+	height: 600px;
+	margin: 0.5%;
+	float: left;
+	padding: 1%;
+}
+
+.ad_div {
+	width: 98%;
+	height: 300px;
+	margin: 1%;
+	float: left;
+}
+
+.ad_img {
+	width: 45%;
+	max-height: 300px;
+	float: left;
+	border-radius: 10px;
+}
+
+.ad {
+	float: left;
+	width: 54%;
+	font-family: Tw Cen MT;
+	font-size: 1.5vw;
+	text-align: justify;
+	
+	padding-left: 1%;
+}
+
+aside article {
+	background-image: url(image/deal.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-radius: 10px;
+	width: 37%;
+	height: 660px;
+	margin: 0.5%;
+	float: left;
+}
+
+.art_1 {
+	width: 98%;
+	height: 380px;
+	margin: 1%;
+	float: left;
+	text-align: justify;
+}
+
+.art_1_div_1 {
+	width: 100%;
+	height: 100px;
+	margin: 0.5%;
+	font-family: Tw Cen MT;
+	padding-left: 3%;
+	padding-top: 2%;
+}
+
+.art_1_div_2 {
+	width: 97%;
+	height: 100px;
+	margin: 0.5%;
+	padding-left: 2%;
+}
+
+.art_1_div_3 {
+	width: 70%;
+	height: 100px;
+	margin: 0.5%;
+	padding-left: 2%;
+}
+
+.art_1 img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	float: left;
+}
+
+.art_1 p {
+	padding-top: 20px;
+	padding-left: 120px;
+	font-size: 24px;
+	font-family: Tw Cen MT;
+	text-align: justify;
+}
+
+.art_2 {
+	width: 98%;
+	height: 260px;
+	margin: 1%;
+	float: left;
+	text-align: right;
+}
+
+footer {
+	width: 100%;
+	height: 70px;
+}
+
+footer figure {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-left: 2%;
+	margin-top: 10px;
+}
+
+footer figure img {
+	max-width: 100%;
+	border-radius: 10px;
+}
+

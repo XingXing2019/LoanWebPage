@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+	<title>WEBEMP & CO</title>
+	<link rel="stylesheet" type="text/css" href="CSS_Home.css">
+
+
+</head>
+<body>
+
+	<header >
+		
+		<div></div>
+		<div>
+
+			<div class="hdiv1">
+				<img  src="image/logo.jpg" alt="logo" align="right">
+			</div>
+
+			<div class="hdiv1">	
+				<p>a loan <br>for whatever you need</p>
+			</div>
+
+		</div>
+
+	</header>
+
+	<nav>
+		
+		<ul>
+			<li><a href="Home.html">Home</a></li>
+			<li><a href="Customer Registration.html">Customer Registration</a></li>
+			<li><a href="Banker Registration.html">Banker Registration</a></li>
+			<li><a href="Service.html">Service</a></li>
+			<li><a href="Contact Us.html">Contact Us</a></li>
+			
+		</ul>
+
+
+		<button class="open-button" onclick="openForm()">Sign In</button>
+
+		<div class="form-popup" id="myForm">
+  			<form action="/action_page.php" class="form-container">
+    			<h1>Login</h1>
+
+    			<label for="email"><b>Customer ID</b></label>
+    			<input type="text" placeholder="Enter Customer ID" name="cID" required>
+
+    			<label for="psw"><b>Password</b></label>
+    			<input type="password" placeholder="Enter Password" name="psw" required>
+
+    			<button type="submit" class="btn">Login</button>
+    			<button type="button" class="cancel" onclick="closeForm()">Close</button>
+  			</form>
+		</div>
+
+		<script>
+			function openForm() {
+ 			document.getElementById("myForm").style.display = "block";
+			}
+
+			function closeForm() {
+  			document.getElementById("myForm").style.display = "none";
+			}
+		</script>
+
+	</nav>
+
+	<main>
+		
+		<section>
+			
+			<div class="dropdown">
+				<span><img src="image/Business Loan.jpg"></span>
+				<div class="dropdown-content">
+					<h2>Fixed Rate</h2>
+					<p>12.95% p.a.</p>
+					<ul>
+						<li>Access to approved funds in 1 business day from receiving your signed documents</li>
+						<li>Fixed competitive monthly principal and interest repayments so you can budget more</li>
+						<li>12, 24, 36 month loan terms giving you the flexibility you need</li>
+					</ul>
+
+					<h2>Variable Rate</h2>
+					<p>14.25% p.a.</p>
+					<ul>
+						<li>Access to approved funds in 1 business day from receiving your signed documents</li>
+						<li>Only pay interest on what you use</li>
+						<li>An extension of your NAB business transaction account</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="dropdown">
+				<span><img src="image/Home Loan.jpg"></span>
+				<div class="dropdown-content">
+					<h2>2 Year Fixed Package Rate<br>(owner occupied)</h2>
+					<p>3.79% p.a.</p>
+
+					<h2>2 Year Fixed Package Rate<br>(investment)</h2>
+					<p>3.99% p.a.</p>
+					
+					<h2>Standard Variable Rate<br>(owner occupied)</h2>
+					<p>5.37% p.a.</p>
+
+					<h2>Standard Variable Rate<br>(investment)</h2>
+					<p>5.95% p.a.</p>
+				</div>
+			</div>
+
+			<div class="dropdown">
+				<span><img src="image/Car Loan.jpg"></span>
+				<div class="dropdown-content">
+					<h2>Fixed Rate</h2>
+					<p>From 8.49% p.a.</p>
+
+					<h2>Variable Rate</h2>
+					<p>From 9.54% p.a.<br>based on a $30,000 loan over 5 years</p>
+				</div>
+			</div>
+			
+			<div class="dropdown">
+				<span><img src="image/Personal Loan.jpg"></span>
+				<div class="dropdown-content">
+					
+					<h2>Fixed Rate</h2>
+					<p>Headline rate</p>
+					<p>12.69% p.a.<br>Rate can range from 10.69% p.a. to 18.69% p.a.</p>
+
+					<p>Comparison rate</p>
+					<p>13.56% p.a.<br>Rate can range from 11.58% p.a. to 19.53% p.a.</p>
+
+					<h2>Variable Rate</h2>
+					<p>Headline rate</p>
+					<p>12.69% p.a.<br>Rate can range from 10.69% p.a. to 18.69% p.a.</p>
+
+					<p>Comparison rate</p>
+					<p>13.56% p.a.<br>Rate can range from 11.58% p.a. to 19.53% p.a.</p>
+
+				</div>
+			</div>
+			
+
+		</section>
+
+		<aside>
+			
+			
+			<aside>
+				
+				<div class="ad_div">
+
+					<img src="image/Business Loan ad.jpg" class="ad_img">
+					
+					<div class="ad">
+						<h2>Business loans and finance</h2>
+						<p>We know that every business can have its hurdles. And its opportunities. Check out our flexible loans and finance solutions, all designed to help you get on top of your business.</p>
+					</div>
+
+				</div>
+
+				<div class="ad_div">
+					
+					<img src="image/Home Loan ad.jpg" class="ad_img">
+					<div class="ad">
+						<h2>Home loans</h2>
+						<p>Get on top of the home buying process with our flexible home loans, mortgage calculators, and expert tools and tips. Talk to us when you're ready, or make the leap and apply online.</p>
+					</div>
+				</div>
+
+			</aside>
+
+			<article>
+				
+				<div class="art_1">
+					
+					<div class="art_1_div_1">		
+						<h1>WE'RE READY TO HELP YOU</h1>
+						<h2>Here's what you will need to apply</h2>
+					</div>
+
+
+					<div class="art_1_div_2">		
+						<img src="image/MoenySign.jpg">
+						<P>Earn more than $40,000 per year.</P>
+					</div>
+
+					<div class="art_1_div_2">		
+						<img src="image/IDSign.jpg">
+						<p>Be 18 years or older and a permanent Australian resident.</p>
+					</div>
+
+
+					<div class="art_1_div_3">
+						<img src="image/ClockSign.jpg">
+						<p>Around 15 minutes to complete the application.</p>	
+					</div>
+
+					<div class="art_1_div_3">	
+						<img src="image/DocSign.jpg">	
+						<p>Proof of address, income and employment.</p>
+					</div>
+					
+				</div>
+				<div class="art_2">
+					<img src="image/Voting.gif">
+				</div>
+
+			</article>
+		</aside>
+		
+		
+
+	</main>
+
+	<footer>
+		
+		<figure>
+			<img src="image/facebook.png" title="Facebook">
+		</figure>
+		<figure>
+			<img src="image/Twitter.png" title="Twitter">
+		</figure>
+		<figure>
+			<img src="image/YouTube.jpg" title="YouTube">
+		</figure>
+		<figure>
+			<img src="image/Linkedin.png" title="Linkedin">
+		</figure>
+		<figure>
+			<img src="image/Instagram.png" title="Instagram">
+		</figure>
+
+	</footer>
+
+</body>
+</html>
+
+
+
+
+
+				

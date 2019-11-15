@@ -1,0 +1,389 @@
+@charset "utf-8";
+/* CSS Document */
+
+.Page2_header1 {
+	width:100%;
+	height: 70px;
+}
+
+.Page2_header1 img {
+	width:360px;
+	height: 70px;
+}
+
+.Page2_open_button {
+  	background-color:red;
+ 	  color: white;
+  	padding: 16px 20px;
+  	border: none;
+  	cursor: pointer;
+  	opacity: 0.8;
+  	position: fixed;
+  	right:7px;
+  	top: 5px;
+  	width:200px;
+  	height: 70px;
+  	font-size: 30px;
+  	font-family: Tw Cen MT; 
+  	position: absolute;	
+  	border-radius: 10px;
+}
+
+.Page2_form_popup {
+  	display: none;
+  	position: fixed;
+  	right: 8px;
+  	border: 3px solid #f1f1f1;
+  	top: 5px;
+}
+
+.Page2_form_container h1 {
+	 font-size: 45px;
+	 font-family: Tw Cen MT; 
+}
+
+.Page2_form_container label {
+	 font-size: 25px;
+	 font-family: Tw Cen MT; 
+}
+
+.Page2_form_container {
+	 max-width: 350px;
+ 	  padding: 10px;
+ 	  height: 470px;
+ 	  right: 8px;
+  	background-color: white;
+  	
+}
+
+.Page2_form_container input[type=text], .Page2_form_container input[type=password] {
+  	width: 90%;
+  	padding: 15px;
+  	margin-top: 5px;
+  	margin-bottom: 22px;
+  	border: none;
+  	background: #f1f1f1;
+  	font-size: 18px;
+}
+
+.Page2_form_container input[type=text]:focus, .Page2_form_container input[type=password]:focus {
+  	outline: none;
+}
+
+.Page2_form_container .btn {
+  	background-color:green;
+  	color: white;
+  	padding: 16px 20px;
+  	border: none;
+  	cursor: pointer;
+  	width: 100%;
+  	margin-bottom:15px;
+  	margin-top: 10px;
+  	opacity: 0.8;
+  	font-size: 25px;
+  	font-family: Tw Cen MT;
+}
+
+.Page2_form_container .cancel {
+  	background-color:red;
+  	color: white;
+  	padding: 16px 20px;
+  	border: none;
+  	cursor: pointer;
+  	width: 100%;
+  	margin-bottom:25px;
+  	opacity: 0.8;
+  	font-size: 25px;
+  	font-family: Tw Cen MT;
+}
+
+.Page2_form_container .cancel:hover, .btn:hover, .Page2_open_button:hover {
+  opacity: 1;
+}
+
+.Page2_header2 {
+	background-image: url(image/Home-header-7.jpg);
+	background-size: 100% 100%;
+	width:100%;
+	height: 700px;
+	padding-top: 50px; 
+}
+
+.Page2_header_form-container {
+  background-color: white;
+  width: 460px;
+  height: 500px;
+  border-radius: 20px;
+  padding:50px;
+  margin-left: 40px;
+  box-shadow: 0px 16px 32px 0px rgba(0,0,1,0.7);
+}
+
+.Page2_header_form-container label {
+  font-family: Tw Cen MT;
+  font-size: 30px;
+}
+
+.Page2_header_form-container input {
+  font-family: Tw Cen MT;
+  font-size: 30px;
+  border: none;
+  border-bottom: 2px solid red;
+  text-align: left;
+  margin-bottom:  20px;
+  margin-top: 5px;
+  width: 450px;
+}
+
+.Page2_header_form-container button {
+  font-family: Tw Cen MT;
+  font-size: 30px;
+  margin-top: 20px;
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  height: 80px;
+  width: 300px;
+  margin-left: -5px;
+  cursor: pointer;
+}
+
+.Page2_header_form-container button:hover {
+  background-color: white;
+  border: 2px red solid;
+  color: red;
+}
+
+nav {
+  background-color:#bfbfbf;
+  width:100%;
+  height: 75px; 
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: Tw Cen MT;
+  font-size: 30px;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px;
+}
+
+nav li a:hover {
+  background-color: #808080;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.Page2_main {
+	width:100%;
+	height: 1020px;
+}
+
+.Page2_main article {
+  width: 100%;
+  height: 430px;
+  margin-top: 20px;
+}
+
+article div {
+  width: 32%;
+  height: 400px;
+  float: left;
+  margin-left: 1%
+}
+
+.Page3_article_form-container {
+  background-color: white;
+  height: 300px;
+  border-radius: 20px;
+  padding:50px;
+  margin-left: 1%;
+  box-shadow: 0px 16px 32px 0px rgba(0,0,1,0.7);
+}
+
+.Page3_article_form-container label {
+  font-family: Tw Cen MT;
+  font-size: 30px;
+  float: left;
+  width: 45%;
+  height: 30px;
+  margin-top: 25px; 
+}
+
+#label1 {
+  margin-top: 8px;
+}
+
+.Page3_article_form-container input {
+  font-family: Tw Cen MT;
+  font-size: 30px;
+  border: none;
+  border-bottom: 2px solid red;
+  text-align: left;
+  margin-bottom:  15px;
+  margin-top: 5px;
+  width: 54%;
+}
+
+.Page3_article_form-container select {
+  font-family: Tw Cen MT;
+  font-size: 30px;
+  border: 2px solid red;
+  text-align: left;
+  margin-bottom:  25px;
+  margin-top: 5px;
+  width: 54%;
+}
+
+.reset {
+  font-family: Tw Cen MT;
+  font-size: 30px;
+  margin-top: 20px;
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+  height: 50px;
+  width: 40%;
+  margin-left: 5%;
+  cursor: pointer;
+  float: left;
+}
+
+.submit {
+  font-family: Tw Cen MT;
+  font-size: 30px;
+  margin-top: 20px;
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+  height: 50px;
+  width: 40%;
+  margin-left: 50px;
+  cursor: pointer;
+  float: left;
+}
+
+
+.Page3_article_form-container button:hover {
+  background-color: white;
+  border: 2px red solid;
+  color: red;
+}
+
+
+.Page2_main aside {
+  width: 100%;
+  height: 550px;
+  margin-top: 10px;
+  font-family: Tw Cen MT;
+  font-size: 25px;
+  text-align: center;
+}
+
+aside figure img {
+  width: 250px;
+  height: 50px;
+  float: left;
+  margin-left: 5%;
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 1790px) {
+  
+  .Page2_main {
+    height: 1130px;
+  }
+}
+
+@media screen and (max-width: 1550px) {
+  
+  .Page2_main {
+    height: 1920px;
+  }
+
+  .Page2_main article {
+    height: 1230px;
+  }
+
+  article div {
+    width: 98%;
+    margin-top: 10px;
+  }
+
+  .reset {
+    width: 40%;
+    margin-left: 5%;
+  }
+
+  .submit {
+    width: 40%;
+  }
+
+}
+
+@media screen and (max-width: 1380px) {
+  
+  .Page2_main {
+    height: 1760px;
+  }
+
+  .Page2_main aside {
+    height: 500px;
+  }
+
+  aside figure img {
+    width: 125px;
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  
+  .Page2_main {
+    height: 1260px;
+  }
+
+  .Page2_main aside {
+    display: none;
+  }
+
+  li {
+    width: 100%;
+  }
+
+  nav {
+    height: 372px;
+  }
+}
+
+footer {
+  width: 100%;
+  height: 70px;
+}
+
+footer figure {
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-left: 2%;
+  margin-top: 10px;
+}
+
+footer figure img {
+  max-width: 100%;
+  border-radius: 10px;
+}

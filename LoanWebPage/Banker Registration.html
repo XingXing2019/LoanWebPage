@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+	<title>WEBEMP & CO</title>
+	<link rel="stylesheet" type="text/css" href="CSS_Banker Registration.css">
+
+<body>
+
+	<header>
+		<div class="Page2_header1">
+			<img src="image/logo.jpg">
+			<button class="Page2_open_button" onclick="openForm()">Sign In</button>
+
+			<div class="Page2_form_popup" id="myForm">
+				<form action="/action_page.php" class="Page2_form_container">
+					<h1>Login</h1>
+
+					<label for="email"><b>Customer ID</b></label>
+					<input type="text" placeholder="Enter Customer ID" name="cID" required>
+
+					<label for="psw"><b>Password</b></label>
+					<input type="password" placeholder="Enter Password" name="psw" required>
+
+					<button type="submit" class="btn">Login</button>
+					<button type="button" class="cancel" onclick="closeForm()">Close</button>
+				</form>
+			</div>
+
+			<script>
+				function openForm() {
+					document.getElementById("myForm").style.display = "block";
+				}
+
+				function closeForm() {
+					document.getElementById("myForm").style.display = "none";
+				}
+			</script>
+		</div>
+
+		<div class="Page2_header2">
+
+			<div class="Page2_header2_div1">
+
+				<h1>Register for WEBEMP & CO</h1>
+				<h2>What Matters to You Matters to Us</h2>
+				<p>Expanding the frontier of your business by our connection with million of registered customers.
+				</p>
+
+			</div>
+		</div>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="Home.html">Home</a></li>
+			<li><a href="Customer Registration.html">Customer Registration</a></li>
+			<li><a href="Banker Registration.html">Banker Registration</a></li>
+			<li><a href="Service.html">Service</a></li>
+			<li><a href="Contact Us.html">Contact Us</a></li>
+
+		</ul>
+	</nav>
+
+	<section>
+
+
+
+
+		<aside>
+
+			<div class="aside-div1">
+				<img src="image/Individual.jpg">
+			</div>
+
+			<div class="aside-div2">
+				<b>I'm a sole trader / individual</b><br> You will be in business as soon as your qualification is
+				verified.
+			</div>
+
+			<div class="aside-div1">
+				<img src="image/Company.jpg">
+			</div>
+
+			<div class="aside-div2">
+				<b>I'm a Pty Ltd Company registered with ASIC</b><br> Your company will be registered when we receive
+				your ABN and TFN.
+			</div>
+
+
+
+		</aside>
+
+		<article>
+			<div>
+				<form action="/action_page.php" class="Page2_header_form-container">
+					<label>Bank Name: </label><br>
+					<input type="text" name="Bank name" placeholder="e.g. Commonwealth Bank*"><br>
+
+					<label>ABN Number: </label><br>
+					<input type="number" name="ABN number" placeholder="e.g. 48 111 111 111*"><br>
+
+					<label>TFN Number: </label><br>
+					<input type="Number" name="TFN Number" placeholder="e.g. 040 000 000*"><br>
+
+					<label>Street Address: </label><br>
+					<input type="text" name="Street Address" placeholder="e.g. 10 Park Rd*"><br>
+
+					<label>Suburb: </label><br>
+					<input type="text" name="Suburb" placeholder="e.g. Petersham*"><br>
+
+					<label>State: </label><br>
+					<select name="State" size="3">
+
+						<option value="ACT">ACT</option>
+						<option value="NSW">NSW</option>
+						<option value="NT">NT</option>
+						<option value="QLD">QLD</option>
+						<option value="SA">SA</option>
+						<option value="TAS">TAS</option <option value="VIC">VIC</option>
+						<option value="WA">WA</option>
+					</select>
+					<br>
+
+					<label>Post Code: </label><br>
+					<input type="Number" name=">Post Code" placeholder="e.g. 2000*"><br>
+
+					<label>Email: </label><br>
+					<input type="Email" name="Email" placeholder="e.g. email@domain.com*"><br>
+
+					<button type="Reset" class="reset">Reset</button>
+					<button type="submit" class="submit">Submit</button>
+				</form>
+			</div>
+
+		</article>
+
+	</section>
+
+
+
+
+	<footer>
+		<figure>
+			<img src="image/facebook.png" title="Facebook">
+		</figure>
+		<figure>
+			<img src="image/Twitter.png" title="Twitter">
+		</figure>
+		<figure>
+			<img src="image/YouTube.jpg" title="YouTube">
+		</figure>
+		<figure>
+			<img src="image/Linkedin.png" title="Linkedin">
+		</figure>
+		<figure>
+			<img src="image/Instagram.png" title="Instagram">
+		</figure>
+	</footer>
+
+
+
+</body>
+
+</html>

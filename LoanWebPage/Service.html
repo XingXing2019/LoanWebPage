@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+	<title>WEBEMP & CO</title>
+	<link rel="stylesheet" type="text/css" href="CSS_Service.css">
+<body>
+
+	<header>
+		<div class="Page2_header1">
+			<img src="image/logo.jpg">
+			<button class="Page2_open_button" onclick="openForm()">Sign In</button>
+
+		<div class="Page2_form_popup" id="myForm">
+  			<form action="/action_page.php" class="Page2_form_container">
+    			<h1>Login</h1>
+
+    			<label for="email"><b>Customer ID</b></label>
+    			<input type="text" placeholder="Enter Customer ID" name="cID" required>
+
+    			<label for="psw"><b>Password</b></label>
+    			<input type="password" placeholder="Enter Password" name="psw" required>
+
+    			<button type="submit" class="btn">Login</button>
+    			<button type="button" class="cancel" onclick="closeForm()">Close</button>
+  			</form>
+		</div>
+
+		<script>
+			function openForm() {
+ 			document.getElementById("myForm").style.display = "block";
+			}
+
+			function closeForm() {
+  			document.getElementById("myForm").style.display = "none";
+			}
+		</script>
+		</div>
+
+		<div class="Page2_header2">
+			
+			<div>				
+				<form action="/action_page.php" class="Page2_header_form-container">
+    				<label>First name: </label><br>
+    				<input type="text" name="first name" placeholder="e.g. John*"><br>
+
+    				<label>Last name: </label><br>
+    				<input type="text" name="first name" placeholder="e.g. Smith*"><br>
+
+    				<label>Phone: </label><br>
+    				<input type="Phone" name="Phone No." placeholder="e.g. 0411 111 111*"><br>
+
+    				<label>Email: </label><br>
+    				<input type="Email" name="Email" placeholder="e.g. email@domain.com*"><br>
+
+    				<button type="submit">Make an appointment</button>
+  				</form>
+			</div>
+			
+		</div>
+
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="Home.html">Home</a></li>
+			<li><a href="Customer Registration.html">Customer Registration</a></li>
+			<li><a href="Banker Registration.html">Banker Registration</a></li>
+			<li><a href="Service.html">Service</a></li>
+			<li><a href="Contact Us.html">Contact Us</a></li>
+			
+		</ul>
+	</nav>
+
+	<section class="Page2_main">
+		
+		<article>
+			<div>
+				<form action="/action_page.php" class="Page3_article_form-container">
+    				<label>Account: </label><br>
+    				<input type="number" name="Account No"><br>
+
+    				<label>Category: </label><br>
+    				<input type="text" name="Category"><br>
+
+    				<label>Balance: </label><br>
+    				<input type="number" name="Balance"><br>
+    				
+    				<button type="Reset" class="reset">Reset</button>
+    				<button type="submit" class="submit">Submit</button>
+  				</form>
+  			</div>
+  				
+  			<div>
+				<form action="/action_page.php" class="Page3_article_form-container">
+    				<label>Card No: </label><br>
+    				<input type="number" name="Card No"><br>
+
+    				<label>Expired Date: </label><br>
+    				<input type="Date" name="Expired Date"><br>
+
+    				<label>Limit: </label><br>
+    				<input type="number" name="Limit"><br> 				
+    				<button type="Reset" class="reset">Reset</button>
+    				<button type="submit" class="submit">Submit</button>
+  				</form>
+  			</div>
+
+  			<div>
+				<form action="/action_page.php" class="Page3_article_form-container">
+    				<label>Loan Type: </label><br>
+    				<select name="State" size="1">
+    					
+    					<option value="Choose">Choose</option>
+    					<option value="Home Loan">Home Loan</option>
+    					<option value="Car Loan">Car Loan</option>
+    					<option value="Personal Loan">Personal Loan</option>
+    					<option value="BUsiness Loan">Business Loan</option>
+    				
+     				</select>
+
+
+
+    				<label id="label1">Loan No: </label><br>
+    				<input type="number" name=">Loan No"><br>
+
+    				<label>Amount: </label><br>
+    				<input type="number" name="Amount"><br>
+    				
+    				<button type="Reset" class="reset">Reset</button>
+    				<button type="submit" class="submit">Submit</button>
+  				</form>
+  			</div>
+		</article>
+
+		<aside>
+			<div>
+				<h1>We negotiate better rates with more than 30 lenders for you</h1>
+			</div>
+
+			<figure>
+				<img src="image/Commonwealth.png">
+				<img src="image/ANZ.png">
+				<img src="image/NAB.png">
+				<img src="image/Westpac.jpg">
+				<img src="image/StGeorge.png">
+				<img src="image/Bankwest.png">
+				<img src="image/ING.png">
+				<img src="image/Suncorp.png">
+				<img src="image/AMP.png">
+				<img src="image/Macquarie.png">
+				<img src="image/Click.png">
+				<img src="image/Pepper.jpg">
+				<img src="image/BankA.jpg">
+				<img src="image/Bendigo.png">
+				<img src="image/Queensland.png">
+				<img src="image/Citi.jpg">
+				<img src="image/ubank.png">
+				<img src="image/IMB.png">
+				<img src="image/Hume.png">
+				<img src="image/Gateway.jpg">
+
+
+			</figure>
+		</aside>
+
+
+	</section> 
+
+	<footer>
+		<figure>
+			<img src="image/facebook.png" title="Facebook">
+		</figure>
+		<figure>
+			<img src="image/Twitter.png" title="Twitter">
+		</figure>
+		<figure>
+			<img src="image/YouTube.jpg" title="YouTube">
+		</figure>
+		<figure>
+			<img src="image/Linkedin.png" title="Linkedin">
+		</figure>
+		<figure>
+			<img src="image/Instagram.png" title="Instagram">
+		</figure>
+	</footer>
+
+
+
+</body>
+</html>

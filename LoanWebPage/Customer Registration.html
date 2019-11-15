@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+	<title>WEBEMP & CO</title>
+	<link rel="stylesheet" type="text/css" href="CSS_Customer Registration.css">
+<body>
+
+	<header>
+		<div class="Page2_header1">
+			<img src="image/logo.jpg">
+			<button class="Page2_open_button" onclick="openForm()">Sign In</button>
+
+		<div class="Page2_form_popup" id="myForm">
+  			<form action="/action_page.php" class="Page2_form_container">
+    			<h1>Login</h1>
+
+    			<label for="email"><b>Customer ID</b></label>
+    			<input type="text" placeholder="Enter Customer ID" name="cID" required>
+
+    			<label for="psw"><b>Password</b></label>
+    			<input type="password" placeholder="Enter Password" name="psw" required>
+
+    			<button type="submit" class="btn">Login</button>
+    			<button type="button" class="cancel" onclick="closeForm()">Close</button>
+  			</form>
+		</div>
+
+		<script>
+			function openForm() {
+ 			document.getElementById("myForm").style.display = "block";
+			}
+
+			function closeForm() {
+  			document.getElementById("myForm").style.display = "none";
+			}
+		</script>
+		</div>
+
+		<div class="Page2_header2">
+			
+			<div class="Page2_header2_div1">
+			
+				<h1>Register for WEBEMP & CO</h1>
+				<h2>Get What You Want Sooner</h2>
+				<p>Getting started is easy. With a few simple steps you can manage your account from the comfort of your home on desktop, mobile, tablet or apple watch.</p>
+			
+			</div>
+		</div>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="Home.html">Home</a></li>
+			<li><a href="Customer Registration.html">Customer Registration</a></li>
+			<li><a href="Banker Registration.html">Banker Registration</a></li>
+			<li><a href="Service.html">Service</a></li>
+			<li><a href="Contact Us.html">Contact Us</a></li>
+			
+		</ul>
+	</nav>
+
+	<section>
+		
+		<article>
+			<div>		
+				<form action="/action_page.php" class="Page2_header_form-container">
+    				<label>First Name: </label><br>
+    				<input type="text" name="first name" placeholder="e.g. John*"><br>
+
+    				<label>Last Name: </label><br>
+    				<input type="text" name="first name" placeholder="e.g. Smith*"><br>
+
+    				<label>Date of Birth: </label><br>
+    				<input type="Birth" name="DOB" placeholder="e.g. 01-01-1900*"><br>
+
+    				<label>Phone: </label><br>
+    				<input type="Phone" name="Phone No." placeholder="e.g. 0411 111 111*"><br>
+
+    				<label>Street Address: </label><br>
+    				<input type="text" name="Street Address" placeholder="e.g. 10 Park Rd*"><br>
+
+    				<label>Suburb: </label><br>
+    				<input type="text" name="Suburb" placeholder="e.g. Petersham*"><br>
+
+    				<label>State: </label><br>
+    				<select name="State" size="3">
+    					
+    					<option value="ACT">ACT</option>
+    					<option value="NSW">NSW</option>
+    					<option value="NT">NT</option>
+    					<option value="QLD">QLD</option>
+    					<option value="SA">SA</option>
+    					<option value="TAS">TAS</option
+    					<option value="VIC">VIC</option>
+    					<option value="WA">WA</option>
+     				</select>
+    				<br>
+
+    				<label>Email: </label><br>
+    				<input type="Email" name="Email" placeholder="e.g. email@domain.com*"><br>
+
+    				<button type="Reset" class="reset">Reset</button>
+    				<button type="submit" class="submit">Submit</button>
+  				</form>
+			</div>
+
+		</article>
+
+		
+		<aside>
+			
+			<div class="aside-div1">
+				<img src="image/ios app.jpg">
+			</div>
+
+			<div class="aside-div2">
+				<b>WEBEMP app</b><br>
+				Tap into more control, more piece of mind an more freedom.
+			</div>
+
+			<div class="aside-div1">
+				<img src="image/customer service.jpg">
+			</div>
+
+			<div class="aside-div2">
+				<b>Call us on 13 20 02</b><br>
+				Mon-Fri 8am - 7pm (AEST/ADST)<br>
+				Sat-Sun 9am - 6pm (AEST/ADST)
+			</div>
+
+			<div class="aside-div1">
+				<img src="image/Apple Watch.jpg">
+			</div>
+
+			<div class="aside-div2">
+				<b>WEBEMP Apple Watch</b><br>
+				Check your funds at a glance with Quick Balances.
+			</div>
+
+		</aside>
+
+	</section> 
+
+
+
+
+	<footer>
+		<figure>
+			<img src="image/facebook.png" title="Facebook">
+		</figure>
+		<figure>
+			<img src="image/Twitter.png" title="Twitter">
+		</figure>
+		<figure>
+			<img src="image/YouTube.jpg" title="YouTube">
+		</figure>
+		<figure>
+			<img src="image/Linkedin.png" title="Linkedin">
+		</figure>
+		<figure>
+			<img src="image/Instagram.png" title="Instagram">
+		</figure>
+	</footer>
+
+
+
+</body>
+</html>
